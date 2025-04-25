@@ -1,0 +1,30 @@
+@import 'variables';
+@import 'fonts';
+
+body{
+    font-family:IBM;
+    font-size:20px;
+    font-weight:400;
+    color:$dpink;
+    background-color:$lyellow;
+}
+a{
+    font-family:Tomorrow;
+    font-size:20px;
+    font-weight:400;
+    color:$dpurple;
+}
+a b{
+    font-family:tomorrow;
+    font-size:20px;
+    font-weight:700;
+    font-style:italic;
+    color:$dpink;
+}
+
+h1{
+    font-family:PatrickHandSC;
+    font-size:40px;
+    font-weight:400;
+    color:$dpurple;
+}
