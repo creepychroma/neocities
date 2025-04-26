@@ -1,12 +1,12 @@
 @import 'variables';
 @import 'fonts';
+@import 'mixins';
 
 body{
+    @include dark-mode;
     font-family:IBM;
     font-size:20px;
     font-weight:400;
-    color:$dpink;
-    background-color:$lyellow;
 }
 a{
     font-family:Tomorrow;
