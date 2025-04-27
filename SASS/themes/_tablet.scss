@@ -3,11 +3,8 @@
 @import 'sass/components/fonts';
 @import 'sass/components/themecolor';
 @import 'sass/components/utilities';
-@import 'sass/themes/mobile';
-@import 'sass/themes/tablet';
-@import 'sass/themes/desktop';
 
-body{
-    @include light-body;
-    @include light-text;
+@media screen and (max-width:$tablet) {
+    #tablet{
+    }
 }

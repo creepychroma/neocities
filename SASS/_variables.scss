@@ -30,10 +30,13 @@ $lpurple:#FDF1FF;
 $mpurple:#F7BBFD;
 $dpurple:#CF9DD5;
 
-
-
 /*Dark theme*/
 $darkbg:linear-gradient(180deg,$ddark 0%, $mdark 27%, $ldark 100%);
 
 /*Light theme*/
 $lightbg:linear-gradient(180deg,$dlight 0%, $mlight 27%, $llight 100%);
+
+/*breakpoints*/
+$mobile:360px;
+$tablet:800px;
+$desktop:1440px;
