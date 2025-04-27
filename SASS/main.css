@@ -1,22 +1,11 @@
 /*color palette, and color variables*/
 /*body*/
-/*light module*/
-/*light border*/
-/*Light bg*/
-/*gradient start*/ /*highlight*/
-/*glow*/
-/*gradient end*/ /*shadow*/
-/*dark module*/
-/*dark border*/
-/*dark bg*/
 /*accents*/
 /*Accent of importance*/
 /*Attention grab*/
-/*Dark theme - monochromatic*/
-/*^v*/
-/*Dark theme - monochromatic*/
-/*Light theme*/
+/*primary accents*/
 /*Dark theme*/
+/*Light theme*/
 /*main body font*/
 @font-face {
   font-family: "IBM";
@@ -110,4 +99,12 @@
   font-weight: 400;
   font-style: normal;
   font-display: swap;
+}
+body {
+  background: linear-gradient(180deg, #BBA3C5 0%, #D9CCDF 27%, #F7F5F9 100%);
+  background-repeat: none;
+  background-attachment: fixed;
+  font-family: IBM;
+  color: #37004E;
+  font-size: 20px;
 }/*# sourceMappingURL=main.css.map */

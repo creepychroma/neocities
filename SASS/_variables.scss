@@ -1,15 +1,15 @@
 /*color palette, and color variables*/
 
 /*body*/
-$llight:#F7F5F9; /*light module*/
-$mlight:#D9CCDF; /*light border*/
-$dlight:#BBA3C5; /*Light bg*/
-$lmid:#9C7AAB;   /*gradient start*/ /*highlight*/
-$mmid:#7E5291;   /*glow*/
-$dmid:#5F2977;   /*gradient end*/   /*shadow*/
-$ldark:#41005D;  /*dark module*/
-$mdark:#37004E;  /*dark border*/
-$ddark:#030004;  /*dark bg*/
+$llight:#F7F5F9;
+$mlight:#D9CCDF;
+$dlight:#BBA3C5;
+$lmid:#9C7AAB;
+$mmid:#7E5291;
+$dmid:#5F2977;
+$ldark:#41005D;
+$mdark:#37004E;
+$ddark:#030004;
 
 /*accents*/
 $lpink:#FFFCFC; 
@@ -24,12 +24,16 @@ $dyellow:#F1DB7E; /*Attention grab*/
 $lgreen:#F8FDFB;
 $mgreen:#DEF3E9;
 $dgreen:#8FD7B4;
-$lpurple:#FDF1FF; /*Dark theme - monochromatic*/
-$mpurple:#F7BBFD;            /*^v*/
-$dpurple:#CF9DD5; /*Dark theme - monochromatic*/
 
-/*Light theme*/
+/*primary accents*/
+$lpurple:#FDF1FF;
+$mpurple:#F7BBFD;
+$dpurple:#CF9DD5;
+
 
 
 /*Dark theme*/
+$darkbg:linear-gradient(180deg,$ddark 0%, $mdark 27%, $ldark 100%);
 
+/*Light theme*/
+$lightbg:linear-gradient(180deg,$dlight 0%, $mlight 27%, $llight 100%);
